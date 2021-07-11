@@ -1,6 +1,7 @@
 #include <fstream>
 #include <stack>
 
+
 long *nextGreaterElement(long *a, const long &N) {
     long *res = new long[N];
     std::stack<long> s;
